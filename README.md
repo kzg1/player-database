@@ -20,4 +20,4 @@ Filter and sort players by their stats
 You can add new player to the list
 
 <b>Export list as CSV</b>
-Export the current player list in CSV format
+Export the modified player list in CSV format - it exports the full list, not the filtered one
