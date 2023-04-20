@@ -19,10 +19,7 @@ public class PlayerConfig {
 
 		return args -> {
 
-		//	Player zoli = new Player(1, "zoli", 12);
-		//	Player babett = new Player(2, "babett", 22);
-
-		//	repository.saveAll(List.of(zoli, babett));
+	
 			
 			// adding player function
 			Function<String[], Player> toPlayer = new Function<String[], Player>() {
