@@ -17,9 +17,7 @@ public class PlayerService {
 
 	private final PlayerRepository playerRepository;
 
-	@Autowired
 	public PlayerService(PlayerRepository playerRepository) {
-		super();
 		this.playerRepository = playerRepository;
 	}
 
@@ -64,13 +62,6 @@ public class PlayerService {
 		this.playerRepository.deleteById(id);
 	}
 
-	public void updatePlayer(Integer id, String name, Integer tD, Integer iNT, float cmpPrc) {
-		// TODO Auto-generated method stub
-		this.playerRepository.getById(id).setName(name);
-		this.playerRepository.getById(id).setTD(tD);
-		this.playerRepository.getById(id).setINT(iNT);
-		this.playerRepository.getById(id).setCmpPerc(cmpPrc);
-	}
 
 	public Player getById(Integer id) {
 		return this.playerRepository.findById(id).get();
