@@ -20,7 +20,7 @@ public class PlayerController {
 
 	private PlayerService playerService;
 
-	@Autowired
+	
 	public PlayerController(PlayerService playerService) {
 		this.playerService = playerService;
 	}
